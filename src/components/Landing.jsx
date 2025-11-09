@@ -91,7 +91,7 @@ export default function Landing() {
         </Feature>
         <Feature>
           <FeatureTitle>Type-friendly</FeatureTitle>
-          <p>Works well with TypeScript and modern React patterns.</p>
+          <p>Components styles can be used and reused in differnt components</p>
         </Feature>
         <Feature>
           <FeatureTitle>Theme-ready</FeatureTitle>
@@ -99,7 +99,7 @@ export default function Landing() {
         </Feature>
       </Features>
 
-      <Footer>© {new Date().getFullYear()} Your Company — Built with styled-components</Footer>
+      <Footer>© {new Date().getFullYear()} Built with styled-components</Footer>
     </Page>
   )
 }
